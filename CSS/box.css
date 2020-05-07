@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+#box {
+    padding: 10px;
+    background-color: blue;
+    border: 3px solid black;
+    margin: 40px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+#content {
+    background-color: greenyellow;
+}
+
+h1 {
+    margin-bottom: 30px;
+    border: 30px solid black;
+    width: 400px;
+    color: pink;
+    background-color: aquamarine;
+    overflow: scroll;
+}
+
+* {
+    box-sizing: border-box;
+}

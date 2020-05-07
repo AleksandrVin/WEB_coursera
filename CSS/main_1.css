@@ -1,0 +1,56 @@
+p {
+    color: blue;
+    font-size: 2opx;
+    width: 200px;
+}
+
+.red {
+    color: red;
+}
+
+#green {
+    color: green;
+}
+
+h2,
+.cain {
+    color: crimson;
+}
+
+header li {
+    list-style: none;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    background-color: green;
+    border: 1px solid blue;
+    color: black;
+    display: block;
+    width: 200px;
+    margin-bottom: 2px;
+}
+
+a:hover,
+a:active {
+    background-color: red;
+    columns: purple;
+}
+
+header li:nth-child(3) {
+    font-size: 24px;
+}
+
+section div:nth-child(odd) {
+    background-color: gray;
+}
+
+section div:nth-child(4):hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+a:hover div:nth-child(5) {
+    font-size: 24px;
+}
